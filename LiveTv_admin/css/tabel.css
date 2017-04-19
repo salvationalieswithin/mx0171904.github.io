@@ -1,0 +1,49 @@
+body{
+     background: #FFF none repeat scroll 0 0;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+}
+#tbl{
+		border:inherit;
+  		font-family: tahoma;
+  		font-size: 15px;
+  	}
+  	#tbl th {
+  		text-align: center;
+  		background:#aaa;
+  	}
+  	#tbl tr th{
+  		padding: 10px;
+		
+  	}
+	
+	
+	#tbl td{
+		font-size:15px
+	}
+	
+  	#tbl  tr:nth-child(odd)
+	{
+  		background: #dfe5d7; 
+  	}
+	 #tbl tr:nth-child(even)
+	 {
+		background:#ddd;
+	}
+	
+  	#tbl  tr:hover{
+  		background:rgb(242,255,214);
+  	}
+  	#tbl tr:checked{
+  		background:blue;
+  		color: #fff;
+  	}
+  	#tbl  tr td{
+  		padding: 10px;
+  	}
+
+	table tr td:nth-child(4),  table tr th:nth-child(4) {
+    width: 200px !important;
+    display: block;
+    word-wrap: break-word;
+}
