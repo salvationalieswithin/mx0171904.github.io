@@ -1,8 +1,0 @@
-<?php
-session_start();
-
-//mysql_connect("localhost","root","") or die("not connected");
-//mysql_select_db("cricket");
-$_connection=mysql_connect("localhost","root","") or die("not connected");
-mysql_select_db("fillatv",$_connection) or die("not connected db"); 
-?>
